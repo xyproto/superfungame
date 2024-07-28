@@ -31,7 +31,7 @@ func main() {
 	defer ren.Destroy()
 
 	// Load the image as a texture
-	tex, err := img.LoadTexture(ren, filepath.Join("xyproto.png"))
+	tex, err := img.LoadTexture(ren, filepath.Join("img/xyproto.png"))
 	if err != nil {
 		log.Fatalln("LoadTexture Error:", err)
 	}
