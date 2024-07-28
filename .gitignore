@@ -1,0 +1,7 @@
+superfungame
+*.bak
+*.swp
+*.o
+*.tmp
+include.txt
+.DS_Store*
